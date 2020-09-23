@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Common.DataAccess\Common.DataAccess.csproj" />
+    <ProjectReference Include="..\Common.DTO\Common.DTO.csproj" />
+    <ProjectReference Include="..\Common.Entities\Common.Entities.csproj" />
+    <ProjectReference Include="..\Common.Utils\Common.Utils.csproj" />
+  </ItemGroup>
+
+</Project>

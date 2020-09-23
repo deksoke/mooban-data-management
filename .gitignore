@@ -1,0 +1,25 @@
+Api/*/*.swp
+Api/*/*.*~
+Api/*/project.lock.json
+Api/*/.DS_Store
+Api/*/*.pyc
+Api/*/nupkg/
+
+# Visual Studio Code
+Api/*/.vscode
+
+# Build results
+Api/*/[Dd]ebug/
+Api/*/[Dd]ebugPublic/
+Api/*/[Rr]elease/
+Api/*/[Rr]eleases/
+Api/*/x64/
+Api/*/x86/
+Api/*/build/
+Api/*/bld/
+Api/*/[Bb]in/
+Api/*/[Oo]bj/
+Api/*/[Oo]ut/
+
+# Visual Studio 2015
+[Aa]pi/.vs/
